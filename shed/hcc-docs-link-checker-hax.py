@@ -1,8 +1,8 @@
 import requests
 import sys
+import json
 from config import HCCLinksItem, HCCLinksCollection, HCCLinksConfig
 from hcclinks import BaseRequest, HeadRequest, GetRequest
-from pprint import pprint
 
 # Read the config from the named file
 hccl_config = HCCLinksConfig(sys.argv[1])
@@ -28,5 +28,5 @@ hcc_results = []
 for an_item in hcc_requests:
     hcc_results.append(an_item.check())
 
-# Dump the list of results objects
-pprint(hcc_results)
+# Dump the list of results objects as JSON
+print(json.dumps(hcc_results, sort_keys=True, indent=4))

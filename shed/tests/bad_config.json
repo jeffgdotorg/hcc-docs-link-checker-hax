@@ -1,0 +1,60 @@
+{
+    "sourceBundleId": "insights",
+    "description": "HCC links for Red Hat Lightspeed",
+    "collections": [
+        { 
+
+            "name": "The first RHLS doc links collection",
+            "items": [
+                {
+                    "description": "AI assistant > AI assistant upper dropdown > RHEL Lightspeed option > Questionmark on the right",
+                    "comment": "Does HEAD only, verifies non-error status code",
+                    "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/interacting_with_the_command-line_assistant_powered_by_rhel_lightspeed/introducing-rhel-lightspeed-for-rhel-systems",
+                    "method": "HEAD",
+                    "minStatus": 200,
+                    "maxStatus": 299
+                },,
+                {
+                    "description": "(IoP) Advisor > Recommendations > Questionmark popover next to the page title > 'Assessing RHEL Configuration Issues...'",
+                    "comment": "Gets whole body, verifies non-error status, confirms that text DOES contain an expected substring and NOT an unexpected substring",
+                    "url": "https://docs.redhat.com/en/documentation/red_hat_insights/1-latest/html/assessing_rhel_configuration_issues_using_the_red_hat_insights_advisor_service",
+                    "method": "GET",
+                    "minStatus": 200,
+                    "maxStatus": 399,
+                    "textSuccessSubstr": "configuration issues by using",
+                    "textFailureSubstr": "Page not found"
+                },
+                {
+                    "description": "Compliance > EmptyState for any table",
+                    "comment": "Does HEAD only, expects a 301 status, verifies location header URL is as expected",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_insights/1-latest/html/assessing_and_monitoring_security_policy_compliance_of_rhel_systems/index",
+                    "method": "HEAD",
+                    "minStatus": 301,
+                    "maxStatus": 301,
+                    "locationHeaderSubstr": "https://docs.redhat.com/"
+                }
+            ]
+        },
+        {
+            "name": "The second RHLS doc links collection",
+            "items": [
+                {
+                    "description": "Tasks > ZeroState > Documentation > 'Remote Host Configuration and Management'",
+                    "comment": "HEAD only, verifies content-type header",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_insights/1-latest/html/assessing_and_monitoring_security_vulnerabilities_on_rhel_systems",
+                    "method": "HEAD",
+                    "contentTypeStartsWith": "text/html"
+                },
+                {
+                    "description": "Inventory > Systems > Questionmark popover next to the page title > 'Managing system staleness and deletion'",
+                    "comment": "URL contains an anchor, and  checks text for an element with the corresponding id attribute",
+                    "url": "https://docs.redhat.com/en/documentation/red_hat_insights/1-latest/html-single/viewing_and_managing_system_inventory/index#systems-lifecycle_user-access",
+                    "method": "GET",
+                    "minStatus": 200,
+                    "maxStatus": 399,
+                    "textSuccessSubstr": "id=\"systems-lifecycle_user-access\""
+                }
+            ]
+        }
+    ]
+}
