@@ -1,10 +1,11 @@
 import json
 from pathlib import Path
+from pprint import pprint
 
 __all__ = [ "HCCLinksItem", "HCCLinksCollection", "HCCLinksConfig" ]
 
 class HCCLinksItem:
-    def __new__(self, item_obj):
+    def __init__(self, item_obj):
         self.url = item_obj['url']
         self.description = item_obj['description']
         if 'comment' in item_obj:
@@ -29,19 +30,23 @@ class HCCLinksItem:
             self.location_header_substr = item_obj['locationHeaderSubstr']
         if 'contentTypeStartsWith' in item_obj:
             self.content_type_starts_with = item_obj['contentTypeStartsWith']
-        return self
+    
+    def __str__(self):
+        return f"HCCLinksItem:Medhod={self.method}"
 
 class HCCLinksCollection:
-    def __new__(self, collection_obj):
+    def __init__(self, collection_obj):
         self.items = []
         self.name = collection_obj['name']
         for file_item in collection_obj['items']:
-            self.items += [ HCCLinksItem(file_item) ]
-        return self
-            
+            self.items.append(HCCLinksItem(file_item))
+            print(f"Last item in ||{str(self)}|| is ||{str(self.items[-1])}||")
+    
+    def __str__(self):
+        return f"HCCLinksCollection:Items={len(self.items)}"
 
 class HCCLinksConfig:
-    def __new__(self, pathname):
+    def __init__(self, pathname):
         self.collections = []
         conf_path = Path(pathname)
         with conf_path.open() as conf_file:
@@ -49,5 +54,7 @@ class HCCLinksConfig:
         self.description = self.conf_obj['description']
         self.source_bundle_id = self.conf_obj['sourceBundleId']
         for file_collection in self.conf_obj['collections']:
-            self.collections += [ HCCLinksCollection(file_collection) ]
-        return self
+            self.collections.append(HCCLinksCollection(file_collection))
+
+    def __str__(self):
+        return f"HCCLinksConfig:Collections={len(self.collections)},Description={self.description}"
