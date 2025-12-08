@@ -1,21 +1,32 @@
 import requests
+import sys
+from config import HCCLinksItem, HCCLinksCollection, HCCLinksConfig
+from hcclinks import BaseRequest, HeadRequest, GetRequest
+from pprint import pprint
 
-good_url = 'https://access.redhat.com/documentation/en-us/red_hat_insights/1-latest/html/generating_advisor_service_reports/index'
-bad_url = 'https://docs.redhat.com/en/documentation/red_hat_insights/1-latest/html/converting_from_a_linux_distribution_to_rhel_using_the_convert2rhel_utility_in_red_hat_insights/preparation-for-a-rhel-conversion-using-insights_converting-from-a-linux-distribution-to-rhel-in-insights'
-print("This one should succeed\n========================\n")
-print("HEAD:")
-r = requests.head(good_url)
-print(r.status_code, r.text)
-# print("GET:")
-# r = requests.get(good_url)
-# print(r.status_code, r.text)
+# Read the config from the named file
+hccl_config = HCCLinksConfig(sys.argv[1])
 
-print("This one should fail\n========================\n")
-print("HEAD:")
-r = requests.head(bad_url)
-print(r.status_code, r.text)
-# print("GET:")
-# r = requests.get(bad_url)
-# print(r.status_code, r.text)
+# Initialize the list of request objects
+hcc_requests = []
 
-# url: 
+# Loop through the collections in the config and build up request objects
+for a_collection in hccl_config.collections:
+    print(f"Doing collection {a_collection.name}")
+    for an_item in a_collection.items:
+        if an_item.method == "HEAD":
+            hcc_requests.append(HeadRequest(an_item))
+        elif an_item.method == "GET":
+            hcc_requests.append(GetRequest(an_item))
+        else:
+            raise ValueError(f"Only HEAD and GET are currently supported, cannot do {an_item.method}!")
+
+# Initialize the list of results objects
+hcc_results = []
+
+# Loop through the request objects, firing each and collecting the results
+for an_item in hcc_requests:
+    hcc_results.append(an_item.check())
+
+# Dump the list of results objects
+pprint(hcc_results)

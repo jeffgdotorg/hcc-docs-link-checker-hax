@@ -1,6 +1,5 @@
 import json
 from pathlib import Path
-from pprint import pprint
 
 __all__ = [ "HCCLinksItem", "HCCLinksCollection", "HCCLinksConfig" ]
 
@@ -40,7 +39,6 @@ class HCCLinksCollection:
         self.name = collection_obj['name']
         for file_item in collection_obj['items']:
             self.items.append(HCCLinksItem(file_item))
-            print(f"Last item in ||{str(self)}|| is ||{str(self.items[-1])}||")
     
     def __str__(self):
         return f"HCCLinksCollection:Items={len(self.items)}"
