@@ -1,5 +1,7 @@
 import json
 from inspect import ismethod
+from camel_converter import dict_to_camel
+
 __all__ = [ "HCCLinkCheckResult" ]
 
 def get_attr_unless_none(source_obj, attr_name):
@@ -45,4 +47,5 @@ class HCCLinkCheckResult(object):
                     proxy_dict[an_attr] = getattr(self, an_attr, None)
         if format != "json":
             raise ValueError(f"Only JSON format is currently supported. I know nothing about the requested format '{format}'.")
-        return json.dumps(proxy_dict, sort_keys=True, indent=4)
+        else:
+            return json.dumps(dict_to_camel(proxy_dict), sort_keys=True, indent=4)
