@@ -28,5 +28,6 @@ hcc_results = []
 for an_item in hcc_requests:
     hcc_results.append(an_item.check())
 
-# Dump the list of results objects as JSON
-print(json.dumps(hcc_results, sort_keys=True, indent=4))
+# Loop through the results objects, printing each as a JSON string
+for a_result in hcc_results:
+    print(a_result.as_string(format="json"))

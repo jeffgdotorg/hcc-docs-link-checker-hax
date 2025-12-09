@@ -1,0 +1,620 @@
+{
+    "sourceBundleId": "openshift",
+    "description": "HCC links for OpenShift",
+    "collections": [
+        {
+            
+            "name": "The first and only OpenShift doc links collection",
+            "items": [
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_database_access/1/html-single/quick_start_guide/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/topic/05b07729-c891-4846-8044-aeff49bbfb72"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_science"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_container_storage/4.5/html/managing_openshift_container_storage/multicloud-object-gateway_rhocs"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/2022-q2/html-single/adding_the_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/2022-q2/html-single/adding_the_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/1.1/html/getting_started_with_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/2022-q2/html-single/adding_the_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/2022-q2/html-single/adding_the_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_science"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/1.1/html/getting_started_with_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/1.1/html/getting_started_with_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/1.1/html/getting_started_with_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_database_access/1/html-single/quick_start_guide/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_science"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_container_storage/4.5/html/managing_openshift_container_storage/multicloud-object-gateway_rhocs"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/2022-q2/html-single/adding_the_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/2022-q2/html-single/adding_the_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/1.1/html/getting_started_with_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/2022-q2/html-single/adding_the_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/2022-q2/html-single/adding_the_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/1.1/html/getting_started_with_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/1.1/html/getting_started_with_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/1.1/html/getting_started_with_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_database_access/1/html-single/quick_start_guide/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/topic/05b07729-c891-4846-8044-aeff49bbfb72"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_science"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_container_storage/4.5/html/managing_openshift_container_storage/multicloud-object-gateway_rhocs"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/2022-q2/html-single/adding_the_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/2022-q2/html-single/adding_the_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/1.1/html/getting_started_with_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/2022-q2/html-single/adding_the_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_foundation_managed_service/2022-q2/html-single/adding_the_red_hat_openshift_data_foundation_managed_service/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_data_science"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_management_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_api_management/1/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/openshift_container_platform/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/openshift_cluster_manager/2023/html/managing_clusters/assembly-cluster-subscriptions"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/rosa_cli/rosa-get-started-cli"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/cli_tools/rosa-cli#rosa-login-sso_rosa-getting-started-cli"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/install_clusters/rosa-hcp-sts-creating-a-cluster-quickly"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/install_clusters/creating-a-rosa-cluster-using-terraform"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.8/html/updating_clusters/updating-cluster-within-minor#candidate-4-8-channel"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.6/html/release_notes/ocp-4-6-release-notes#ocp-4-6-12"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_managed_integration/2/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_managed_integration/2/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_managed_integration/2/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_managed_integration/2/"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/openshift_dedicated/4/html/introduction_to_openshift_dedicated/policies-and-service-definition#limited-support_osd-service-definition"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html/introduction_to_rosa/policies-and-service-definition#rosa-limited-support_rosa-service-definition"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/storage/configuring-persistent-storage"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/migration_toolkit_for_virtualization/2.0/html/installing_and_using_the_migration_toolkit_for_virtualization/about-mtv_mtv#mtv-resources-and-services_mtv"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/migration_toolkit_for_virtualization/2.0/html/installing_and_using_the_migration_toolkit_for_virtualization/about-mtv_mtv#mtv-resources-and-services_mtv"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/openshift_container_platform/latest/html"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/openshift_dedicated/4/html"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws/4/html"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/red_hat_openshift_service_on_aws_classic_architecture/4/html"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/cost_management_service/1-latest/html"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/openshift_cluster_manager/2023"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/openshift_container_platform/4.13"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/release_notes/ocp-4-19-release-notes#ocp-4-19-removed-osdk_release-notes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.13/html/installing_gitops/installing-argocd-gitops-cli"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/builds_for_red_hat_openshift/1.1/html-single/work_with_builds/index"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/openshift_cluster_manager/1-latest/html-single/managing_clusters/index#con-ocm-with-rhsso_downloading-and-updating-pull-secrets"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://docs.redhat.com/en/documentation/openshift_cluster_manager/1-latest/html-single/managing_clusters/index#transferring-cluster-ownership_downloading-and-updating-pull-secrets"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_security_for_kubernetes"
+                },
+                {
+                    "description": "Auto-generated from UHC-OCM full links list",
+                    "url": "https://access.redhat.com/documentation/en-us/red_hat_advanced_cluster_security_for_kubernetes"
+                }
+            ]
+        }
+    ]
+}
