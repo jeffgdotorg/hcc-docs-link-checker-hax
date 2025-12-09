@@ -3,7 +3,7 @@ from inspect import ismethod
 __all__ = [ "HCCLinkCheckResult" ]
 
 def get_attr_unless_none(source_obj, attr_name):
-    if getattr(source_obj, attr_name, None) != None:
+    if getattr(source_obj, attr_name, None) is not None:
         return getattr(source_obj, attr_name)
 
 class HCCLinkCheckResult(object):

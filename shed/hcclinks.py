@@ -53,14 +53,14 @@ class HeadRequest(BaseRequest):
                 reason="HEAD response status out of bounds (high)",
                 content_type=map_attr(response.headers, "content-type", None),
                 location_header=map_attr(response.headers, "location", None))
-        if self.location_header_substr != None and self.location_header_substr not in response.headers['location']:
+        if self.location_header_substr is not None and self.location_header_substr not in response.headers['location']:
             return HCCLinkCheckResult(hccl_item=self.hccl_item,
                 passes=False,
                 status=response.status_code,
                 reason="HEAD response Location header did not contain expected substring",
                 content_type=map_attr(response.headers, "content-type", None),
                 location_header=map_attr(response.headers, "location", None))
-        if hasattr(response.headers, 'content-type') and self.content_type_starts_with != None and not response.headers['content-type'].startswith(self.content_type_starts_with):
+        if hasattr(response.headers, 'content-type') and self.content_type_starts_with is not None and not response.headers['content-type'].startswith(self.content_type_starts_with):
             return HCCLinkCheckResult(hccl_item=self.hccl_item,
                 passes=False,
                 status=response.status_code,
@@ -98,28 +98,28 @@ class GetRequest(BaseRequest):
                 reason="GET response status out of bounds (high)",
                 content_type=map_attr(response.headers, "content-type", None),
                 location_header=map_attr(response.headers, "location", None))
-        if self.location_header_substr != None and self.location_header_substr not in response.headers['location']:
+        if self.location_header_substr is not None and self.location_header_substr not in response.headers['location']:
             return HCCLinkCheckResult(hccl_item=self.hccl_item,
                 passes=False,
                 status=response.status_code,
                 reason="GET response Location header did not contain expected substring",
                 content_type=map_attr(response.headers, "content-type", None),
                 location_header=map_attr(response.headers, "location", None))
-        if hasattr(response.headers, 'content-type') and self.content_type_starts_with != None and not response.headers['content-type'].startswith(self.content_type_starts_with):
+        if hasattr(response.headers, 'content-type') and self.content_type_starts_with is not None and not response.headers['content-type'].startswith(self.content_type_starts_with):
             return HCCLinkCheckResult(hccl_item=self.hccl_item,
                 passes=False,
                 status=response.status_code,
                 reason="GET response Content-type header did not start with expected substring",
                 content_type=map_attr(response.headers, "content-type", None),
                 location_header=map_attr(response.headers, "location", None))
-        if self.text_failure_substr != None and self.text_failure_substr in response.text:
+        if self.text_failure_substr is not None and self.text_failure_substr in response.text:
             return HCCLinkCheckResult(hccl_item=self.hccl_item,
                 passes=False,
                 status=response.status_code,
                 reason="GET response body contained failure substring",
                 content_type=map_attr(response.headers, "content-type", None),
                 location_header=map_attr(response.headers, "location", None))
-        if self.text_success_substr != None and not self.text_success_substr in response.text:
+        if self.text_success_substr is not None and not self.text_success_substr in response.text:
             return HCCLinkCheckResult(hccl_item=self.hccl_item,
                 passes=False,
                 status=response.status_code,
