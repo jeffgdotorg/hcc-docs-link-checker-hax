@@ -15,3 +15,6 @@ At demo time, this project is still pretty rough, but it illustrates what a comm
 - Detect query parms on GET URLs and handle appropriately (currently such URLs will most likely fail spectacularly)
 - Convert config format from JSON to YAML
 - Tighten up results format and provide flexible representation (JSON, YAML, CSV...)
+- Include collection- and config-level metadata in each result
+- Map snake_case to camelCase when marshaling JSON
+- Refactor to be more Pythonic
